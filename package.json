@@ -1,0 +1,29 @@
+{
+  "name": "backend-test-i",
+  "version": "1.0.0",
+  "description": "A simple bot that extracts Email address, Twitter profile name, Number of followers from people's Twitter bio (on public/open accounts), into a Google spreadsheet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayomidearo/backend-test-I.git"
+  },
+  "keywords": [
+    "bot",
+    "twitter"
+  ],
+  "author": "Ayomide Aro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayomidearo/backend-test-I/issues"
+  },
+  "homepage": "https://github.com/ayomidearo/backend-test-I#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^24.0.0",
+    "twit": "^2.2.9"
+  }
+}
