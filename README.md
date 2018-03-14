@@ -35,6 +35,17 @@ If you choose to use build tools to compile your CSS and Javascript (such as SAS
 
 This fictitious project is part of a larger plan to reuse templates for multiple properties. When authoring your CSS ensure that it is easy for another developer to find and change things such as fonts and colours.
 
+## How To Use
+
+1. Clone the repository
+
+2. run `npm install` in side the local file
+
+3. Get `client_secret.json` file from https://developers.google.com/sheets/api/quickstart/nodejs
+
+4. Rename `sample.env` to `.env` and update with necessary details
+
+4. run `node app.js`
 
 ## Good luck!
 
